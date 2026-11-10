@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hello glasses — tiny Meta Ray-Ban Display test app for Pak">
+  <meta name="mrbd-web-app-capable" content="yes">
+  <title>Hello Glasses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell" id="app">
+    <main class="content">
+      <h1>Hello, Pak</h1>
+      <p class="clock" id="clock" aria-live="polite">--:--:-- PT</p>
+      <p class="hint">Ray-Ban Display · Neural Band test</p>
+
+      <div class="row">
+        <button type="button" id="dec" aria-label="Decrement">−</button>
+        <span class="count" id="count" aria-live="polite">0</span>
+        <button type="button" id="inc" aria-label="Increment">+</button>
+      </div>
+
+      <button type="button" id="reset">Reset</button>
+    </main>
+
+    <aside class="log-panel" aria-label="Last input event">
+      <div class="log-label">Last input</div>
+      <div class="log-line" id="log-type">type: —</div>
+      <div class="log-line" id="log-key">key: —</div>
+      <div class="log-line" id="log-code">code: —</div>
+    </aside>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

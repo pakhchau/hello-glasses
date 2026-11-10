@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "Hello Glasses",
+  "description": "Tiny Ray-Ban Display test app for Pak.",
+  "appearance": {
+    "theme_color": "#0EA5E9",
+    "icon": {
+      "src": "../icon.svg",
+      "type": "monochrome"
+    }
+  }
+}
